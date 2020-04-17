@@ -1,0 +1,15 @@
+name: VillagerKiller
+version: ${project.version}
+main: com.darkender.plugins.villagerkiller.VillagerKiller
+author: Techdoodle
+api-version: 1.15
+description: A simple plugin to take actions on specific villager types
+commands:
+  villagerkiller:
+    aliases:
+      - vk
+    permission: villagerkiller.reload
+permissions:
+  villagerkiller.reload:
+    description: Permission to reload the VillagerKiller config
+    default: op
